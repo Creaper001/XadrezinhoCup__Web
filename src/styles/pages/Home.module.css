@@ -1,0 +1,90 @@
+.title {
+  color: #ffffffff;
+}
+.title h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+.title h1 {
+  font-size: 65px;
+  font-weight: bolder;
+}
+.title .buttons {
+  margin-top: 44px;
+  display: flex;
+}
+.title .buttons a:not(:last-child) {
+  margin-right: 23px;
+}
+
+.howWorks {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.howWorks h3 {
+  margin-top: 46px;
+  margin-bottom: 55px;
+  width: 367px;
+  color: #12304F;
+  font-size: 36px;
+  font-weight: bolder;
+}
+.howWorks .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 386px);
+  grid-template-rows: repeat(2, 157px);
+  column-gap: 30px;
+  row-gap: 48px;
+}
+.howWorks .grid .block {
+  padding: 25px 30px;
+  background: #12304F;
+  border-radius: 20px;
+  color: #ffffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.howWorks .grid .block h4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.howWorks .grid .block p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.award {
+  margin: 70px auto;
+  width: 1122px;
+  display: flex;
+  justify-content: space-between;
+  color: #12304F;
+}
+.award .prizes {
+  width: 594px;
+}
+.award .prizes h3 {
+  font-size: 36px;
+  font-weight: bolder;
+}
+.award .prizes .grid {
+  margin-top: 29px;
+  display: grid;
+  grid-template-columns: repeat(3, 198px);
+  grid-template-rows: 97px;
+  column-gap: 30px;
+}
+.award .prizes .grid .block h4 { 
+  font-size: 26px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+.award .prizes .grid .block p { 
+  font-size: 14px;
+  font-weight: 300;
+}
+.award .prizes .line {
+  margin: 26px 0;
+}
