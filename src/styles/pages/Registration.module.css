@@ -1,0 +1,11 @@
+.title {
+  color: #ffffffff;
+}
+.title h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+.title h1 {
+  font-size: 65px;
+  font-weight: bolder;
+}

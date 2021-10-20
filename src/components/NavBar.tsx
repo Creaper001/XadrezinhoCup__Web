@@ -17,7 +17,7 @@ const NavBar: NextComponentType = () => {
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/registration">
               <a>Inscrição</a>
             </Link>
           </li>
@@ -30,7 +30,7 @@ const NavBar: NextComponentType = () => {
             <a></a>
           </li>
           <li>
-            <Link href="#">
+            <Link href="/registration">
               <a className="--button">Inscreva-se</a>
             </Link>
           </li>

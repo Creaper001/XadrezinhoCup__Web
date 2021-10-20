@@ -1,13 +1,21 @@
-import type { NextComponentType } from "next";
+import * as React from 'react'
 import styles from "../styles/components/Header.module.css";
 import NavBar from "../components/NavBar";
 
-const Header: NextComponentType = ({ children }) => {
+type Props = {
+  children: React.ReactNode;
+  height: number;
+  image: string;
+};
+
+const Header: React.FC<Props>= ({ children, height, image }) => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} style={{backgroundImage: `url(${image})`}}>
       <div className="--content">
         <NavBar />
-        <div className={styles.box}>{children}</div>
+        <div className={styles.box} style={{ height: `${height}px` }}>
+          {children}
+        </div>
       </div>
     </section>
   );

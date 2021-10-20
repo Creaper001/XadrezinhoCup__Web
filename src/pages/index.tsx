@@ -8,12 +8,12 @@ import Footer from "../components/Footer";
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Header>
+      <Header height={520} image="/wallpaper.png">
         <div className={styles.title}>
           <h2>Inscrição até dia 05 de maio</h2>
           <h1>2º XadrezinhoCup</h1>
           <div className={styles.buttons}>
-            <Link href="/">
+            <Link href="/registration">
               <a className="--button">Faça já sua inscrição!</a>
             </Link>
             <Link href="/">
