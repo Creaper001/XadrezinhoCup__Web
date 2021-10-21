@@ -23,6 +23,7 @@ a {
   color: #000000 !important;
   font-size: 12px;
   font-weight: bold !important;
+  border: 0;
 }
 .--button-reverse {
   padding: 10px 34px !important;
