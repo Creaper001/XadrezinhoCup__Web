@@ -18,6 +18,14 @@ const Footer: NextComponentType = () => {
                 height={24}
               />
             </a>
+            <a href="http://wa.me/5514996622640">
+              <Image
+                src="/whatsApp.svg"
+                alt="WhatsApp"
+                width={24}
+                height={24}
+              />
+            </a>
           </div>
         </div>
       </div>

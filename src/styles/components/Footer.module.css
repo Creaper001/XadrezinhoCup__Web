@@ -18,6 +18,9 @@
   font-size: 12px;
   font-weight: bold;
 }
-.contact *:not(:last-child) {
+.contact *:first-child {
   margin-right: 10px;
+}
+.contact *:not(:last-child) {
+  margin-right: 5px;
 }
