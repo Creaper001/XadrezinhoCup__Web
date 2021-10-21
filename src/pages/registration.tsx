@@ -6,28 +6,26 @@ import axios from "axios";
 import Router from "next/router";
 
 const Registration: NextPage = () => {
-  interface FormEvent extends Event {
-    target: {
-      fullname: {
-        value: string;
-      };
-      email: {
-        value: string;
-      };
-      cellphone: {
-        value: string;
-      };
-      lichessName: {
-        value: string;
-      };
-      allowsNotification: {
-        value: string;
-      };
+  interface FormEvent extends EventTarget {
+    fullname: {
+      value: string;
+    };
+    email: {
+      value: string;
+    };
+    cellphone: {
+      value: string;
+    };
+    lichessName: {
+      value: string;
+    };
+    allowsNotification: {
+      value: string;
     };
   }
-  function registration(event: FormEvent) {
+  function registration(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const target = event.target;
+    const target = event.target as FormEvent;
     const fullName = target.fullname.value;
     const email = target.email.value;
     const cellphone = target.cellphone.value;
