@@ -10,7 +10,7 @@ const Footer: NextComponentType = () => {
           <Image src="/logo.svg" alt="XadrezinhoCup" width={155} height={28} />
           <div className={styles.contact}>
             <p>Siga-nos:</p>
-            <a href="">
+            <a href="https://www.instagram.com/xadrezinhocup/">
               <Image
                 src="/instagram.svg"
                 alt="Instagram"
